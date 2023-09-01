@@ -40,6 +40,7 @@ const audio = document.getElementById("myAudio");
 audio.addEventListener("canplaythrough", () => {
     const animationContainer = document.querySelector(".digital_clock");
     animationContainer.addEventListener("animationstart", () => {
+        audio.autoplay = true;
         audio.play();
     });
 });
