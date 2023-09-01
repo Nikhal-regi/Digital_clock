@@ -37,6 +37,7 @@ setInterval(settime, 1000);
 
 
 const audio = document.getElementById("myAudio");
+audio.autoplay = true;
 audio.addEventListener("canplaythrough", () => {
     const animationContainer = document.querySelector(".digital_clock");
     animationContainer.addEventListener("animationstart", () => {
