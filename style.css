@@ -92,15 +92,15 @@ body {
     }
 
     30% {
-        opacity: 1;
+        opacity: 0.5;
     }
 
     50% {
-        opacity: 0;
+        opacity: 1;
     }
 
     70% {
-        opacity: 1;
+        opacity: 0.5;
     }
 
     100% {
@@ -114,17 +114,17 @@ body {
     }
 
     30% {
-        opacity: 1;
+        opacity: 0.5;
         transform: translateX(-50%);
 
     }
 
     50% {
-        opacity: 0;
+        opacity: 1;
     }
 
     70% {
-        opacity: 1;
+        opacity: 0.5;
         transform: translateX(+50%);
     }
 
